@@ -25,4 +25,4 @@ An aspiring IT Professional on a dedicated learning journey, focused on building
 
 ## 📬 To Contact Me
 * ✉️ Gmail: dilukshanvishal2009@gmail.com
-* 📸 Instagram: dilux.ln 
+* 📸 Instagram: @dilux.ln 
