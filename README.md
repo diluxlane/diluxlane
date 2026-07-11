@@ -1,10 +1,10 @@
-# Hi there, I'm Deluxe! 👋
+# Hi there, I'm Dilux ! 👋
 
 An aspiring IT Professional on a dedicated learning journey, focused on building foundational tech expertise and scaling my brand.
 
 ---
 
-## 🚀 About Me
+## 🎗️ About Me
 * 💻 Currently training in **Software Engineering** (Programming, Coding, Web Development & Design).
 * 🛡️ Exploring the fundamentals of **Cyber Security** & Ethical Hacking.
 * 🌐 Focused on Brand Building and developing **@zyberlane**.
