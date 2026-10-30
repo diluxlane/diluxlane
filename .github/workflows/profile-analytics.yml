@@ -1,0 +1,63 @@
+name: Profile analytics
+
+on:
+  schedule:
+    - cron: '23 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main, feat/cinematic-profile]
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'README.md'
+      - '.github/workflows/profile-analytics.yml'
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Test calculations, failure handling, assets and Markdown
+        run: python3 -m unittest discover -s tests -v
+      - name: Reproduce committed SVGs from the snapshot
+        run: |
+          python3 scripts/analytics.py --render-only
+          git diff --exit-code -- assets/analytics
+
+  refresh:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    concurrency:
+      group: profile-analytics-refresh
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: main
+      - name: Fetch public data and render complete snapshots
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/analytics.py
+      - name: Validate refreshed snapshot
+        run: python3 -m unittest discover -s tests -v
+      - name: Commit only generated analytics assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- assets/analytics
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh public profile analytics'
+            git push origin HEAD:main
+          fi

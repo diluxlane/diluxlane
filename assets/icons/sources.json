@@ -1,0 +1,18 @@
+{
+  "upstream": "https://github.com/devicons/devicon",
+  "commit": "32fe1d3b3f36ad11f90ab94f7db59738139c2bf6",
+  "icons": {
+    "html": "html5/html5-original",
+    "css": "css3/css3-original",
+    "javascript": "javascript/javascript-original",
+    "astro": "astro/astro-original",
+    "tailwind": "tailwindcss/tailwindcss-original",
+    "vite": "vitejs/vitejs-original",
+    "supabase": "supabase/supabase-original",
+    "git": "git/git-original",
+    "github": "github/github-original",
+    "vercel": "vercel/vercel-original",
+    "playwright": "playwright/playwright-original",
+    "typescript": "typescript/typescript-original"
+  }
+}
