@@ -33,7 +33,8 @@ async function main() {
   for(const [name,label] of Object.entries(labels)) {
     const raw=fs.readFileSync(path.join(root,`assets/icons/${name}.svg`),'utf8');
     let inner=raw.replace(/^.*?<svg[^>]*>/s,'').replace(/<\/svg>\s*$/,'');
-    if(['github','vercel'].includes(name)) inner=inner.replace(/fill="(?:#000(?:000)?|black|currentColor)"/g,'fill="#f0f0f0"');
+    if(['github','vercel'].includes(name)) inner=inner.replace(/fill="(?:#000(?:000)?|#181616|black|currentColor)"/g,'fill="#f0f0f0"');
+    if(name==='astro') inner=inner.replaceAll('#000014','#f0f0f0').replaceAll('#150426','#c7cbd1');
     const view=raw.match(/viewBox="([^"]+)"/)[1];
     const tile=`<svg xmlns="http://www.w3.org/2000/svg" width="88" height="90" viewBox="0 0 88 90" role="img"><title>${label}</title><rect x="1" y="1" width="86" height="88" rx="12" fill="#111217" stroke="#303036"/><svg x="23" y="14" width="42" height="42" viewBox="${view}" fill="#f0f0f0">${inner}</svg><text x="44" y="76" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#e5e5e9">${label}</text></svg>`;
     fs.writeFileSync(path.join(root,`assets/icons/${name}-tile.svg`),tile);

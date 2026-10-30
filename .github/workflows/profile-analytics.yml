@@ -31,6 +31,13 @@ jobs:
         run: |
           python3 scripts/analytics.py --render-only
           git diff --exit-code -- assets/analytics
+      - name: Verify live public data collection on the review branch
+        if: github.event_name == 'push' && github.ref == 'refs/heads/feat/cinematic-profile'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python3 scripts/analytics.py
+          python3 -m unittest discover -s tests -v
 
   refresh:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/main')

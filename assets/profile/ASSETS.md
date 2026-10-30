@@ -7,6 +7,6 @@
 
 Neither reference screenshot's artwork was reused, traced, or downloaded. The workstation and illustration are decorative, not screenshots of released products or engineering credentials. No Zyberlane logo is recreated or altered.
 
-Technology marks under `../icons/` come from Devicon, at the exact upstream commit in `../icons/sources.json`. Devicon's MIT notice is preserved in `../icons/DEVICON-LICENSE.txt`. Labelled tiles add a dark frame and text; GitHub/Vercel marks use a light treatment for contrast. Brand marks remain the property of their respective owners and imply no affiliation.
+Technology marks under `../icons/` come from Devicon, at the exact upstream commit in `../icons/sources.json`. Devicon's MIT notice is preserved in `../icons/DEVICON-LICENSE.txt`. Labelled tiles add a dark frame and text; GitHub/Vercel marks and Astro's dark upper shape use a light treatment for contrast. Brand marks remain the property of their respective owners and imply no affiliation.
 
 The analytics SVGs are generated from public GitHub data; see `../../docs/analytics.md` for their methodology.
