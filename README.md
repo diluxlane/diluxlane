@@ -20,63 +20,45 @@
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/profile/terminal-mobile.svg">
-  <img src="assets/profile/terminal-desktop.svg" alt="Animated developer terminal showing the same About me details as the accessible JavaScript code directly below." width="100%">
+  <img src="assets/profile/terminal-desktop.svg" alt="Animated terminal typing Dilux profile details: Sri Lanka, student developer, Zyberlane founder, websites, AI-assisted workflow, systems, cybersecurity and filmmaking." width="100%">
 </picture>
-
-<p><sub>Repository-hosted SVG animation, not a screenshot. The same details appear below as real, selectable JavaScript text.</sub></p>
-
-```javascript
-const dilux = {
-  basedIn: "Sri Lanka",
-  role: "Student developer",
-  founded: "Zyberlane",
-  building: ["Websites & client CMS"],
-  workflow: "AI-assisted",
-  learning: ["Systems & automation", "Cybersecurity basics"],
-  beyondCode: "Filmmaking"
-};
-```
-## Languages & tools
-
-<p align="center"><strong>Core web & project-backed tools</strong></p>
-
-<p align="center">
-  <img src="assets/icons/html-tile.svg" alt="HTML" width="72" height="74">
-  <img src="assets/icons/css-tile.svg" alt="CSS" width="72" height="74">
-  <img src="assets/icons/javascript-tile.svg" alt="JavaScript" width="72" height="74">
-  <img src="assets/icons/astro-tile.svg" alt="Astro" width="72" height="74">
-  <img src="assets/icons/tailwind-tile.svg" alt="Tailwind CSS" width="72" height="74">
-  <img src="assets/icons/supabase-tile.svg" alt="Supabase" width="72" height="74">
-</p>
-
-<p align="center"><strong>Build, verification & delivery tooling</strong></p>
-
-<p align="center">
-  <img src="assets/icons/vite-tile.svg" alt="Vite" width="72" height="74">
-  <img src="assets/icons/git-tile.svg" alt="Git" width="72" height="74">
-  <img src="assets/icons/github-tile.svg" alt="GitHub" width="72" height="74">
-  <img src="assets/icons/vercel-tile.svg" alt="Vercel" width="72" height="74">
-  <img src="assets/icons/playwright-tile.svg" alt="Playwright" width="72" height="74">
-  <img src="assets/icons/typescript-tile.svg" alt="TypeScript — tooling and limited project source" width="72" height="74">
-</p>
-
-<p align="center"><sub>Tools used in real projects; no proficiency ranking implied.</sub></p>
 
 ## Tech stack
 
-| Area | Current project use |
-| :--- | :--- |
-| **Frontend** | HTML · CSS · JavaScript · Astro · Tailwind CSS · Vite |
-| **Backend & data** | Supabase Auth · Postgres through Supabase · Storage · Row Level Security |
-| **Motion & interaction** | GSAP · browser Canvas / WebGL integration and adaptation |
-| **Verification** | Playwright · axe-core · browser smoke tests · project-specific regressions |
-| **Delivery & workflow** | Git · GitHub · branches & pull requests · Vercel previews |
-| **TypeScript** | Tooling and limited project source; continuing to learn |
-| **AI-assisted development** | Planning · implementation · review · checks & iteration |
+<p align="center">
+  <img src="assets/icons/html-tile.svg" alt="HTML" title="HTML" width="68" height="70">
+  <img src="assets/icons/css-tile.svg" alt="CSS" title="CSS" width="68" height="70">
+  <img src="assets/icons/javascript-tile.svg" alt="JavaScript" title="JavaScript" width="68" height="70">
+  <img src="assets/icons/typescript-tile.svg" alt="TypeScript" title="TypeScript" width="68" height="70">
+  <img src="assets/icons/react-tile.svg" alt="React" title="React" width="68" height="70">
+  <img src="assets/icons/nextjs-tile.svg" alt="Next.js" title="Next.js" width="68" height="70">
+  <img src="assets/icons/astro-tile.svg" alt="Astro" title="Astro" width="68" height="70">
+  <img src="assets/icons/tailwind-tile.svg" alt="Tailwind CSS" title="Tailwind CSS" width="68" height="70">
+  <img src="assets/icons/vite-tile.svg" alt="Vite" title="Vite" width="68" height="70">
+  <img src="assets/icons/gsap-tile.svg" alt="GSAP" title="GSAP" width="68" height="70">
+</p>
 
-**Learning / exploring:** Python fundamentals, Linux and cybersecurity fundamentals, software systems, and automation. Robotics and industrial automation are longer-term interests.
+<p align="center">
+  <img src="assets/icons/nodejs-tile.svg" alt="Node.js" title="Node.js" width="68" height="70">
+  <img src="assets/icons/npm-tile.svg" alt="npm" title="npm" width="68" height="70">
+  <img src="assets/icons/supabase-tile.svg" alt="Supabase" title="Supabase" width="68" height="70">
+  <img src="assets/icons/postgresql-tile.svg" alt="PostgreSQL" title="PostgreSQL" width="68" height="70">
+  <img src="assets/icons/git-tile.svg" alt="Git" title="Git" width="68" height="70">
+  <img src="assets/icons/github-tile.svg" alt="GitHub" title="GitHub" width="68" height="70">
+  <img src="assets/icons/githubactions-tile.svg" alt="GitHub Actions" title="GitHub Actions" width="68" height="70">
+  <img src="assets/icons/playwright-tile.svg" alt="Playwright" title="Playwright" width="68" height="70">
+</p>
 
-**How I work:** define the scope → build with AI assistance → run relevant checks → review the PR and preview → release.
+<p align="center">
+  <img src="assets/icons/vercel-tile.svg" alt="Vercel" title="Vercel" width="68" height="70">
+  <img src="assets/icons/netlify-tile.svg" alt="Netlify" title="Netlify" width="68" height="70">
+  <img src="assets/icons/cloudflare-tile.svg" alt="Cloudflare" title="Cloudflare" width="68" height="70">
+  <img src="assets/icons/googlecloud-tile.svg" alt="Google Cloud" title="Google Cloud" width="68" height="70">
+  <img src="assets/icons/vscode-tile.svg" alt="VS Code" title="VS Code" width="68" height="70">
+  <img src="assets/icons/figma-tile.svg" alt="Figma" title="Figma" width="68" height="70">
+  <img src="assets/icons/claude-tile.svg" alt="Claude" title="Claude" width="68" height="70">
+  <img src="assets/icons/python-tile.svg" alt="Python" title="Python" width="68" height="70">
+</p>
 
 ## Featured work
 
