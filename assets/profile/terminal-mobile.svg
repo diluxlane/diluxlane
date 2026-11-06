@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="477" viewBox="0 0 360 477" role="img" aria-labelledby="title desc">
+<title id="title">Dilux developer terminal</title>
+<desc id="desc">Animated typed code about Dilux, a student developer in Sri Lanka and founder of Zyberlane. Full readable code is directly below in the README.</desc>
+<defs><linearGradient id="header" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#1b1f29"/><stop offset="1" stop-color="#141820"/></linearGradient></defs>
+<style>@media (prefers-reduced-motion: reduce) { .type-mask { width: 324px !important; } .cursor { opacity: 0 !important; } }</style>
+<rect width="360" height="477" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<path d="M 16,0 H 344 Q 360,0 360,16 V 56 H 0 V 16 Q 0,0 16,0" fill="url(#header)"/>
+<path d="M 0,56 H 360" stroke="#30363d" stroke-width="1"/>
+<circle cx="23" cy="28" r="6" fill="#ff5f56"/>
+<circle cx="44" cy="28" r="6" fill="#ffbd2e"/>
+<circle cx="65" cy="28" r="6" fill="#27c93f"/>
+<text x="180" y="34" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13px" fill="#9ea7b3">dilux.js — terminal</text>
+<text x="18" y="82" fill="#7d8590" font-size="12px" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">~/diluxlane/profile</text>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace"><mask id="type-0" maskUnits="userSpaceOnUse" x="18" y="94.5" width="324" height="30">
+<rect class="type-mask" x="18" y="94.5" width="0" height="30" fill="#ffffff">
+<animate attributeName="width" dur="26s" repeatCount="indefinite" values="0;0;324;324;0;0" keyTimes="0;0.04231;0.06862;0.986;0.992;1" calcMode="linear"/>
+</rect></mask>
+<text x="18" y="112" fill="#c9d1d9" font-size="13.5px" mask="url(#type-0)" xml:space="preserve"><tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9"> cat dilux.js</tspan></text>
+<mask id="type-1" maskUnits="userSpaceOnUse" x="18" y="116.5" width="324" height="30">
+<rect class="type-mask" x="18" y="116.5" width="0" height="30" fill="#ffffff">
+<animate attributeName="width" dur="26s" repeatCount="indefinite" values="0;0;324;324;0;0" keyTimes="0;0.08231;0.10962;0.986;0.992;1" calcMode="linear"/>
+</rect></mask>
+<text x="18" y="134" fill="#c9d1d9" font-size="13.5px" mask="url(#type-1)" xml:space="preserve"><tspan fill="#79c0ff">const</tspan><tspan fill="#c9d1d9"> dilux = {</tspan></text>
+<mask id="type-2" maskUnits="userSpaceOnUse" x="18" y="138.5" width="324" height="30">
+<rect class="type-mask" x="18" y="138.5" width="0" height="30" fill="#ffffff">
+<animate attributeName="width" dur="26s" repeatCount="indefinite" values="0;0;324;324;0;0" keyTimes="0;0.12231;0.15462;0.986;0.992;1" calcMode="linear"/>
+</rect></mask>
+<text x="18" y="156" fill="#c9d1d9" font-size="13.5px" mask="url(#type-2)" xml:space="preserve"><tspan fill="#c9d1d9">  basedIn: </tspan><tspan fill="#ffa3b5">&quot;Sri Lanka&quot;</tspan><tspan fill="#c9d1d9">,</tspan></text>
+<mask id="type-3" maskUnits="userSpaceOnUse" x="18" y="160.5" width="324" height="30">
+<rect class="type-mask" x="18" y="160.5" width="0" height="30" fill="#ffffff">
+<animate attributeName="width" dur="26s" repeatCount="indefinite" values="0;0;324;324;0;0" keyTimes="0;0.16231;0.19462;0.986;0.992;1" calcMode="linear"/>
+</rect></mask>
+<text x="18" y="178" fill="#c9d1d9" font-size="13.5px" mask="url(#type-3)" xml:space="preserve"><tspan fill="#c9d1d9">  role: </tspan><tspan fill="#ffa3b5">&quot;Student developer&quot;</tspan><tspan fill="#c9d1d9">,</tspan></text>
+<mask id="type-4" maskUnits="userSpaceOnUse" x="18" y="182.5" width="324" height="30">
+<rect class="type-mask" x="18" y="182.5" width="0" height="30" fill="#ffffff">
+<animate attributeName="width" dur="26s" repeatCount="indefinite" values="0;0;324;324;0;0" keyTimes="0;0.20231;0.23462;0.986;0.992;1" calcMode="linear"/>
+</rect></mask>
+<text x="18" y="200" fill="#c9d1d9" font-size="13.5px" mask="url(#type-4)" xml:space="preserve"><tspan fill="#c9d1d9">  founded: </tspan><tspan fill="#ffa3b5">&quot;Zyberlane&quot;</tspan><tspan fill="#c9d1d9">,</tspan></text>
+<mask id="type-5" maskUnits="userSpaceOnUse" x="18" y="204.5" width="324" height="30">
+<rect class="type-mask" x="18" y="204.5" width="0" height="30" fill="#ffffff">
+<animate attributeName="width" dur="26s" repeatCount="indefinite" values="0;0;324;324;0;0" keyTimes="0;0.24231;0.26762;0.986;0.992;1" calcMode="linear"/>
+</rect></mask>
+<text x="18" y="222" fill="#c9d1d9" font-size="13.5px" mask="url(#type-5)" xml:space="preserve"><tspan fill="#c9d1d9">  building: [</tspan></text>
+<mask id="type-6" maskUnits="userSpaceOnUse" x="18" y="226.5" width="324" height="30">
+<rect class="type-mask" x="18" y="226.5" width="0" height="30" fill="#ffffff">
+<animate attributeName="width" dur="26s" repeatCount="indefinite" values="0;0;324;324;0;0" keyTimes="0;0.28231;0.31462;0.986;0.992;1" calcMode="linear"/>
+</rect></mask>
+<text x="18" y="244" fill="#c9d1d9" font-size="13.5px" mask="url(#type-6)" xml:space="preserve"><tspan fill="#c9d1d9">    </tspan><tspan fill="#ffa3b5">&quot;Websites &amp; client CMS&quot;</tspan><tspan fill="#c9d1d9"></tspan></text>
+<mask id="type-7" maskUnits="userSpaceOnUse" x="18" y="248.5" width="324" height="30">
+<rect class="type-mask" x="18" y="248.5" width="0" height="30" fill="#ffffff">
+<animate attributeName="width" dur="26s" repeatCount="indefinite" values="0;0;324;324;0;0" keyTimes="0;0.32231;0.33862;0.986;0.992;1" calcMode="linear"/>
+</rect></mask>
+<text x="18" y="266" fill="#c9d1d9" font-size="13.5px" mask="url(#type-7)" xml:space="preserve"><tspan fill="#8b949e">  ],</tspan></text>
+<mask id="type-8" maskUnits="userSpaceOnUse" x="18" y="270.5" width="324" height="30">
+<rect class="type-mask" x="18" y="270.5" width="0" height="30" fill="#ffffff">
+<animate attributeName="width" dur="26s" repeatCount="indefinite" values="0;0;324;324;0;0" keyTimes="0;0.36231;0.39462;0.986;0.992;1" calcMode="linear"/>
+</rect></mask>
+<text x="18" y="288" fill="#c9d1d9" font-size="13.5px" mask="url(#type-8)" xml:space="preserve"><tspan fill="#c9d1d9">  workflow: </tspan><tspan fill="#ffa3b5">&quot;AI-assisted&quot;</tspan><tspan fill="#c9d1d9">,</tspan></text>
+<mask id="type-9" maskUnits="userSpaceOnUse" x="18" y="292.5" width="324" height="30">
+<rect class="type-mask" x="18" y="292.5" width="0" height="30" fill="#ffffff">
+<animate attributeName="width" dur="26s" repeatCount="indefinite" values="0;0;324;324;0;0" keyTimes="0;0.40231;0.42762;0.986;0.992;1" calcMode="linear"/>
+</rect></mask>
+<text x="18" y="310" fill="#c9d1d9" font-size="13.5px" mask="url(#type-9)" xml:space="preserve"><tspan fill="#c9d1d9">  learning: [</tspan></text>
+<mask id="type-10" maskUnits="userSpaceOnUse" x="18" y="314.5" width="324" height="30">
+<rect class="type-mask" x="18" y="314.5" width="0" height="30" fill="#ffffff">
+<animate attributeName="width" dur="26s" repeatCount="indefinite" values="0;0;324;324;0;0" keyTimes="0;0.44231;0.47462;0.986;0.992;1" calcMode="linear"/>
+</rect></mask>
+<text x="18" y="332" fill="#c9d1d9" font-size="13.5px" mask="url(#type-10)" xml:space="preserve"><tspan fill="#c9d1d9">    </tspan><tspan fill="#ffa3b5">&quot;Systems &amp; automation&quot;</tspan><tspan fill="#c9d1d9">,</tspan></text>
+<mask id="type-11" maskUnits="userSpaceOnUse" x="18" y="336.5" width="324" height="30">
+<rect class="type-mask" x="18" y="336.5" width="0" height="30" fill="#ffffff">
+<animate attributeName="width" dur="26s" repeatCount="indefinite" values="0;0;324;324;0;0" keyTimes="0;0.48231;0.51462;0.986;0.992;1" calcMode="linear"/>
+</rect></mask>
+<text x="18" y="354" fill="#c9d1d9" font-size="13.5px" mask="url(#type-11)" xml:space="preserve"><tspan fill="#c9d1d9">    </tspan><tspan fill="#ffa3b5">&quot;Cybersecurity basics&quot;</tspan><tspan fill="#c9d1d9"></tspan></text>
+<mask id="type-12" maskUnits="userSpaceOnUse" x="18" y="358.5" width="324" height="30">
+<rect class="type-mask" x="18" y="358.5" width="0" height="30" fill="#ffffff">
+<animate attributeName="width" dur="26s" repeatCount="indefinite" values="0;0;324;324;0;0" keyTimes="0;0.52231;0.53862;0.986;0.992;1" calcMode="linear"/>
+</rect></mask>
+<text x="18" y="376" fill="#c9d1d9" font-size="13.5px" mask="url(#type-12)" xml:space="preserve"><tspan fill="#8b949e">  ],</tspan></text>
+<mask id="type-13" maskUnits="userSpaceOnUse" x="18" y="380.5" width="324" height="30">
+<rect class="type-mask" x="18" y="380.5" width="0" height="30" fill="#ffffff">
+<animate attributeName="width" dur="26s" repeatCount="indefinite" values="0;0;324;324;0;0" keyTimes="0;0.56231;0.59462;0.986;0.992;1" calcMode="linear"/>
+</rect></mask>
+<text x="18" y="398" fill="#c9d1d9" font-size="13.5px" mask="url(#type-13)" xml:space="preserve"><tspan fill="#c9d1d9">  beyondCode: </tspan><tspan fill="#ffa3b5">&quot;Filmmaking&quot;</tspan><tspan fill="#c9d1d9"></tspan></text>
+<mask id="type-14" maskUnits="userSpaceOnUse" x="18" y="402.5" width="324" height="30">
+<rect class="type-mask" x="18" y="402.5" width="0" height="30" fill="#ffffff">
+<animate attributeName="width" dur="26s" repeatCount="indefinite" values="0;0;324;324;0;0" keyTimes="0;0.60231;0.61662;0.986;0.992;1" calcMode="linear"/>
+</rect></mask>
+<text x="18" y="420" fill="#c9d1d9" font-size="13.5px" mask="url(#type-14)" xml:space="preserve"><tspan fill="#8b949e">};</tspan></text></g>
+<rect class="cursor" x="18" y="453" width="8" height="13" fill="#3fb950"><animate attributeName="opacity" values="1;0.1;1" dur="1s" repeatCount="indefinite"/></rect>
+</svg>
