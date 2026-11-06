@@ -23,42 +23,36 @@
   <img src="assets/profile/terminal-desktop.svg" alt="Animated terminal typing Dilux profile details: Sri Lanka, student developer, Zyberlane founder, websites, AI-assisted workflow, systems, cybersecurity and filmmaking." width="100%">
 </picture>
 
-## Tech stack
+<h3 align="center">📚 Languages &amp; Tools I Have Placed My Hands On</h3>
 
 <p align="center">
-  <img src="assets/icons/html-tile.svg" alt="HTML" title="HTML" width="68" height="70">
-  <img src="assets/icons/css-tile.svg" alt="CSS" title="CSS" width="68" height="70">
-  <img src="assets/icons/javascript-tile.svg" alt="JavaScript" title="JavaScript" width="68" height="70">
-  <img src="assets/icons/typescript-tile.svg" alt="TypeScript" title="TypeScript" width="68" height="70">
-  <img src="assets/icons/react-tile.svg" alt="React" title="React" width="68" height="70">
-  <img src="assets/icons/nextjs-tile.svg" alt="Next.js" title="Next.js" width="68" height="70">
-  <img src="assets/icons/astro-tile.svg" alt="Astro" title="Astro" width="68" height="70">
-  <img src="assets/icons/tailwind-tile.svg" alt="Tailwind CSS" title="Tailwind CSS" width="68" height="70">
-  <img src="assets/icons/vite-tile.svg" alt="Vite" title="Vite" width="68" height="70">
-  <img src="assets/icons/gsap-tile.svg" alt="GSAP" title="GSAP" width="68" height="70">
-</p>
-
-<p align="center">
-  <img src="assets/icons/nodejs-tile.svg" alt="Node.js" title="Node.js" width="68" height="70">
-  <img src="assets/icons/npm-tile.svg" alt="npm" title="npm" width="68" height="70">
-  <img src="assets/icons/supabase-tile.svg" alt="Supabase" title="Supabase" width="68" height="70">
-  <img src="assets/icons/postgresql-tile.svg" alt="PostgreSQL" title="PostgreSQL" width="68" height="70">
-  <img src="assets/icons/git-tile.svg" alt="Git" title="Git" width="68" height="70">
-  <img src="assets/icons/github-tile.svg" alt="GitHub" title="GitHub" width="68" height="70">
-  <img src="assets/icons/githubactions-tile.svg" alt="GitHub Actions" title="GitHub Actions" width="68" height="70">
-  <img src="assets/icons/playwright-tile.svg" alt="Playwright" title="Playwright" width="68" height="70">
-</p>
-
-<p align="center">
-  <img src="assets/icons/vercel-tile.svg" alt="Vercel" title="Vercel" width="68" height="70">
-  <img src="assets/icons/netlify-tile.svg" alt="Netlify" title="Netlify" width="68" height="70">
-  <img src="assets/icons/cloudflare-tile.svg" alt="Cloudflare" title="Cloudflare" width="68" height="70">
-  <img src="assets/icons/googlecloud-tile.svg" alt="Google Cloud" title="Google Cloud" width="68" height="70">
-  <img src="assets/icons/vscode-tile.svg" alt="VS Code" title="VS Code" width="68" height="70">
-  <img src="assets/icons/figma-tile.svg" alt="Figma" title="Figma" width="68" height="70">
-  <img src="assets/icons/chatgpt-tile.svg" alt="ChatGPT" title="ChatGPT" width="68" height="70">
-  <img src="assets/icons/claude-tile.svg" alt="Claude" title="Claude" width="68" height="70">
-  <img src="assets/icons/python-tile.svg" alt="Python" title="Python" width="68" height="70">
+  <img src="assets/icons/html-tile.svg" alt="HTML" title="HTML" width="60" height="61">
+  <img src="assets/icons/css-tile.svg" alt="CSS" title="CSS" width="60" height="61">
+  <img src="assets/icons/javascript-tile.svg" alt="JavaScript" title="JavaScript" width="60" height="61">
+  <img src="assets/icons/typescript-tile.svg" alt="TypeScript" title="TypeScript" width="60" height="61">
+  <img src="assets/icons/react-tile.svg" alt="React" title="React" width="60" height="61">
+  <img src="assets/icons/nextjs-tile.svg" alt="Next.js" title="Next.js" width="60" height="61">
+  <img src="assets/icons/astro-tile.svg" alt="Astro" title="Astro" width="60" height="61">
+  <img src="assets/icons/tailwind-tile.svg" alt="Tailwind CSS" title="Tailwind CSS" width="60" height="61">
+  <img src="assets/icons/vite-tile.svg" alt="Vite" title="Vite" width="60" height="61">
+  <img src="assets/icons/gsap-tile.svg" alt="GSAP" title="GSAP" width="60" height="61">
+  <img src="assets/icons/nodejs-tile.svg" alt="Node.js" title="Node.js" width="60" height="61">
+  <img src="assets/icons/npm-tile.svg" alt="npm" title="npm" width="60" height="61">
+  <img src="assets/icons/supabase-tile.svg" alt="Supabase" title="Supabase" width="60" height="61">
+  <img src="assets/icons/postgresql-tile.svg" alt="PostgreSQL" title="PostgreSQL" width="60" height="61">
+  <img src="assets/icons/git-tile.svg" alt="Git" title="Git" width="60" height="61">
+  <img src="assets/icons/github-tile.svg" alt="GitHub" title="GitHub" width="60" height="61">
+  <img src="assets/icons/githubactions-tile.svg" alt="GitHub Actions" title="GitHub Actions" width="60" height="61">
+  <img src="assets/icons/playwright-tile.svg" alt="Playwright" title="Playwright" width="60" height="61">
+  <img src="assets/icons/vercel-tile.svg" alt="Vercel" title="Vercel" width="60" height="61">
+  <img src="assets/icons/netlify-tile.svg" alt="Netlify" title="Netlify" width="60" height="61">
+  <img src="assets/icons/cloudflare-tile.svg" alt="Cloudflare" title="Cloudflare" width="60" height="61">
+  <img src="assets/icons/googlecloud-tile.svg" alt="Google Cloud" title="Google Cloud" width="60" height="61">
+  <img src="assets/icons/vscode-tile.svg" alt="VS Code" title="VS Code" width="60" height="61">
+  <img src="assets/icons/figma-tile.svg" alt="Figma" title="Figma" width="60" height="61">
+  <img src="assets/icons/chatgpt-tile.svg" alt="ChatGPT" title="ChatGPT" width="60" height="61">
+  <img src="assets/icons/claude-tile.svg" alt="Claude" title="Claude" width="60" height="61">
+  <img src="assets/icons/python-tile.svg" alt="Python" title="Python" width="60" height="61">
 </p>
 
 ## Featured work
