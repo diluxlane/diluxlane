@@ -6,3 +6,5 @@ The profile uses locally hosted branded SVG tiles. Newly added tile artwork adap
 - [Simple Icons](https://github.com/simple-icons/simple-icons) — GSAP mark. CC0-1.0: https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md.
 
 Logos and wordmarks are trademarks of their respective holders. Tile framing is the original visual treatment of this profile repository. Inclusion means a tool is present in the owner's development, design or learning workflow, not proficiency, certification or endorsement.
+
+- [Lobe Icons](https://github.com/lobehub/lobe-icons) — OpenAI/ChatGPT logo mark used to identify ChatGPT as a tool in this workflow. MIT-licensed icon distribution: https://github.com/lobehub/lobe-icons/blob/master/LICENSE. ChatGPT and its logo are OpenAI trademarks; see https://openai.com/brand/ for usage terms. No endorsement or affiliation is implied.
