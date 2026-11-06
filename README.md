@@ -56,6 +56,7 @@
   <img src="assets/icons/googlecloud-tile.svg" alt="Google Cloud" title="Google Cloud" width="68" height="70">
   <img src="assets/icons/vscode-tile.svg" alt="VS Code" title="VS Code" width="68" height="70">
   <img src="assets/icons/figma-tile.svg" alt="Figma" title="Figma" width="68" height="70">
+  <img src="assets/icons/chatgpt-tile.svg" alt="ChatGPT" title="ChatGPT" width="68" height="70">
   <img src="assets/icons/claude-tile.svg" alt="Claude" title="Claude" width="68" height="70">
   <img src="assets/icons/python-tile.svg" alt="Python" title="Python" width="68" height="70">
 </p>
