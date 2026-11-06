@@ -19,12 +19,11 @@
 ## About me
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/profile/about-mobile.webp">
-  <img src="assets/profile/about-wide.webp" alt="Code-style About Me beside an original developer illustration. Sri Lanka; student developer; founder of Zyberlane; websites and client CMS; AI-assisted workflow; learning systems, automation and cybersecurity; filmmaking." width="100%">
+  <source media="(max-width: 600px)" srcset="assets/profile/terminal-mobile.svg">
+  <img src="assets/profile/terminal-desktop.svg" alt="Animated developer terminal showing the same About me details as the accessible JavaScript code directly below." width="100%">
 </picture>
 
-<details>
-<summary>About me, in plain text</summary>
+<p><sub>Repository-hosted SVG animation, not a screenshot. The same details appear below as real, selectable JavaScript text.</sub></p>
 
 ```javascript
 const dilux = {
@@ -37,9 +36,6 @@ const dilux = {
   beyondCode: "Filmmaking"
 };
 ```
-
-</details>
-
 ## Languages & tools
 
 <p align="center"><strong>Core web & project-backed tools</strong></p>
