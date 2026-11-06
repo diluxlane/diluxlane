@@ -30,12 +30,14 @@
   <img src="assets/icons/css-tile.svg" alt="CSS" title="CSS" width="60" height="61">
   <img src="assets/icons/javascript-tile.svg" alt="JavaScript" title="JavaScript" width="60" height="61">
   <img src="assets/icons/typescript-tile.svg" alt="TypeScript" title="TypeScript" width="60" height="61">
+  <img src="assets/icons/python-tile.svg" alt="Python" title="Python" width="60" height="61">
   <img src="assets/icons/react-tile.svg" alt="React" title="React" width="60" height="61">
   <img src="assets/icons/nextjs-tile.svg" alt="Next.js" title="Next.js" width="60" height="61">
   <img src="assets/icons/astro-tile.svg" alt="Astro" title="Astro" width="60" height="61">
   <img src="assets/icons/tailwind-tile.svg" alt="Tailwind CSS" title="Tailwind CSS" width="60" height="61">
   <img src="assets/icons/vite-tile.svg" alt="Vite" title="Vite" width="60" height="61">
   <img src="assets/icons/gsap-tile.svg" alt="GSAP" title="GSAP" width="60" height="61">
+  <img src="assets/icons/webgl-tile.svg" alt="WebGL" title="WebGL" width="60" height="61">
   <img src="assets/icons/nodejs-tile.svg" alt="Node.js" title="Node.js" width="60" height="61">
   <img src="assets/icons/npm-tile.svg" alt="npm" title="npm" width="60" height="61">
   <img src="assets/icons/supabase-tile.svg" alt="Supabase" title="Supabase" width="60" height="61">
@@ -43,16 +45,24 @@
   <img src="assets/icons/git-tile.svg" alt="Git" title="Git" width="60" height="61">
   <img src="assets/icons/github-tile.svg" alt="GitHub" title="GitHub" width="60" height="61">
   <img src="assets/icons/githubactions-tile.svg" alt="GitHub Actions" title="GitHub Actions" width="60" height="61">
+  <img src="assets/icons/vscode-tile.svg" alt="VS Code" title="VS Code" width="60" height="61">
   <img src="assets/icons/playwright-tile.svg" alt="Playwright" title="Playwright" width="60" height="61">
+  <img src="assets/icons/axecore-tile.svg" alt="axe-core" title="axe-core" width="60" height="61">
+  <img src="assets/icons/kalilinux-tile.svg" alt="Kali Linux" title="Kali Linux" width="60" height="61">
   <img src="assets/icons/vercel-tile.svg" alt="Vercel" title="Vercel" width="60" height="61">
   <img src="assets/icons/netlify-tile.svg" alt="Netlify" title="Netlify" width="60" height="61">
   <img src="assets/icons/cloudflare-tile.svg" alt="Cloudflare" title="Cloudflare" width="60" height="61">
   <img src="assets/icons/googlecloud-tile.svg" alt="Google Cloud" title="Google Cloud" width="60" height="61">
-  <img src="assets/icons/vscode-tile.svg" alt="VS Code" title="VS Code" width="60" height="61">
-  <img src="assets/icons/figma-tile.svg" alt="Figma" title="Figma" width="60" height="61">
   <img src="assets/icons/chatgpt-tile.svg" alt="ChatGPT" title="ChatGPT" width="60" height="61">
+  <img src="assets/icons/gemini-tile.svg" alt="Gemini" title="Gemini" width="60" height="61">
   <img src="assets/icons/claude-tile.svg" alt="Claude" title="Claude" width="60" height="61">
-  <img src="assets/icons/python-tile.svg" alt="Python" title="Python" width="60" height="61">
+  <img src="assets/icons/claudecode-tile.svg" alt="Claude Code" title="Claude Code" width="60" height="61">
+  <img src="assets/icons/codex-tile.svg" alt="OpenAI Codex" title="OpenAI Codex" width="60" height="61">
+  <img src="assets/icons/instinct-tile.svg" alt="Instinct" title="Instinct" width="60" height="61">
+  <img src="assets/icons/figma-tile.svg" alt="Figma" title="Figma" width="60" height="61">
+  <img src="assets/icons/canva-tile.svg" alt="Canva" title="Canva" width="60" height="61">
+  <img src="assets/icons/searchconsole-tile.svg" alt="Google Search Console" title="Google Search Console" width="60" height="61">
+  <img src="assets/icons/businessprofile-tile.svg" alt="Google Business Profile" title="Google Business Profile" width="60" height="61">
 </p>
 
 ## Featured work
