@@ -93,11 +93,17 @@ def collect():
     def repository(r):
         name = r['name']
         base = f'repos/{OWNER}/{urllib.parse.quote(name)}'
-        languages = request(f'https://api.github.com/{base}/languages') if name not in EXCLUDED else {}
-        commits = pages(base + '/commits?' + urllib.parse.urlencode({
-            'sha': r['default_branch'], 'author': OWNER, 'since': start.isoformat() + 'T00:00:00Z',
-            'until': now.isoformat()}))
-        pulls = pages(base + '/pulls?state=closed')
+        try:
+            languages = request(f'https://api.github.com/{base}/languages') if name not in EXCLUDED else {}
+            commits = pages(base + '/commits?' + urllib.parse.urlencode({
+                'sha': r['default_branch'], 'author': OWNER, 'since': start.isoformat() + 'T00:00:00Z',
+                'until': now.isoformat()}))
+            pulls = pages(base + '/pulls?state=closed')
+        except urllib.error.HTTPError as error:
+            if error.code != 409:
+                raise
+            # GitHub answers 409 Conflict until a repository's first commit; collect it as zero activity.
+            languages, commits, pulls = {}, [], []
         # Retain no commit identities, messages, email addresses, or PR bodies.
         return {'name': name, 'default_branch': r['default_branch'], 'language': r['language'],
                 'languages': languages, 'language_excluded': name in EXCLUDED,
