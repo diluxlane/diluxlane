@@ -6,6 +6,7 @@ from pathlib import Path
 import re
 import tempfile
 import unittest
+import urllib.error
 from unittest.mock import patch
 import xml.etree.ElementTree as ET
 
@@ -64,6 +65,26 @@ class AnalyticsTests(unittest.TestCase):
         with patch.object(a,'request',side_effect=[[{'x':i} for i in range(100)],[{'x':100}]]) as req:
             self.assertEqual(len(a.pages('repos/test/name/commits?author=diluxlane')),101)
             self.assertIn('&per_page=100&page=2',req.call_args.args[0])
+
+    def test_empty_repository_409_is_kept_with_zero_activity(self):
+        today=dt.datetime.now(dt.timezone.utc).date()
+        start=today-dt.timedelta(days=364)
+        calendar=''.join(f'<td id="d{i}" data-date="{start+dt.timedelta(days=i)}"></td><tool-tip for="d{i}">No contributions on that day.</tool-tip>' for i in range(365))
+        repo={'name':'Fresh-Repo','owner':{'login':'diluxlane'},'private':False,'fork':False,'default_branch':'main','language':None}
+        empty=urllib.error.HTTPError('https://api.github.com/x',409,'Conflict',{},None)
+        def fake_request(url,api=True):
+            if not api: return calendar
+            if '/languages' in url: return {}
+            if '/commits?' in url: raise empty
+            if '/pulls?' in url: return []
+            return [repo]
+        with patch.object(a,'request',side_effect=fake_request):
+            data=a.collect()
+        record=next(r for r in data['repositories'] if r['name']=='Fresh-Repo')
+        self.assertEqual(record['commits'],[])
+        self.assertEqual(record['merged_prs'],0)
+        self.assertEqual(record['languages'],{})
+        a.validate(data)
 
     def test_bad_refresh_does_not_replace_last_snapshot(self):
         with tempfile.TemporaryDirectory() as temp:
