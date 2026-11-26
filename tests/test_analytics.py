@@ -130,6 +130,29 @@ class ReadmeTests(unittest.TestCase):
         self.assertNotRegex(snapshot,r'@|"email"|"token"|"private"')
         self.assertLess(sum(p.stat().st_size for p in (ROOT/'assets/profile').glob('*.webp')),500_000)
 
+    def test_profile_terminal_is_lightweight_and_immediately_readable(self):
+        for name in ('terminal-desktop.svg', 'terminal-mobile.svg'):
+            path = ROOT/'assets/profile'/name
+            svg = path.read_text()
+            self.assertLess(path.stat().st_size, 4000)
+            self.assertNotRegex(svg, r'<mask|<animate|repeatCount|infinite')
+            self.assertIn('Engineering Tech Student', svg)
+            self.assertIn('prefers-reduced-motion', svg)
+            self.assertIn('robotics', svg)
+            ET.fromstring(svg)
+
+    def test_profile_keeps_original_tools_and_essential_analytics(self):
+        readme = (ROOT/'README.md').read_text()
+        tools = re.findall(r'src="assets/icons/([^"]+)"', readme)
+        self.assertEqual(len(tools), len(set(tools)))
+        self.assertGreaterEqual(len(tools), 41)
+        for tool in ('threejs', 'webxr', 'mediapipe', 'esbuild'):
+            self.assertIn(tool+'-tile.svg', tools)
+        for chart in ('activity.svg', 'stats.svg'):
+            self.assertIn('assets/analytics/'+chart, readme)
+        for chart in ('commits.svg', 'languages-repos.svg', 'languages-bytes.svg'):
+            self.assertNotIn('assets/analytics/'+chart, readme)
+
     def test_svg_assets_parse(self):
         for path in (ROOT/'assets').rglob('*.svg'):
             ET.parse(path)
