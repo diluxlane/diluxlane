@@ -130,12 +130,17 @@ class ReadmeTests(unittest.TestCase):
         self.assertNotRegex(snapshot,r'@|"email"|"token"|"private"')
         self.assertLess(sum(p.stat().st_size for p in (ROOT/'assets/profile').glob('*.webp')),500_000)
 
-    def test_profile_terminal_is_lightweight_and_immediately_readable(self):
+    def test_profile_terminal_has_bounded_lightweight_typing(self):
         for name in ('terminal-desktop.svg', 'terminal-mobile.svg'):
             path = ROOT/'assets/profile'/name
             svg = path.read_text()
-            self.assertLess(path.stat().st_size, 4000)
-            self.assertNotRegex(svg, r'<mask|<animate|repeatCount|infinite')
+            self.assertLess(path.stat().st_size, 7000)
+            self.assertNotRegex(svg, r'<mask|repeatCount="indefinite"|infinite')
+            self.assertEqual(svg.count('<animate '), 1)
+            self.assertIn('dur="5.8s"', svg)
+            self.assertIn('repeatCount="1"', svg)
+            self.assertIn('fill="freeze"', svg)
+            self.assertIn('clip-path:none', svg)
             self.assertIn('AI-Native Builder', svg)
             self.assertIn('prefers-reduced-motion', svg)
             self.assertIn('robotics', svg)
