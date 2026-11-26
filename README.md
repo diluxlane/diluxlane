@@ -5,7 +5,7 @@
 <h1 align="center">Hey, I'm Dilux 👋</h1>
 
 <p align="center">
-  <strong>AI-Native Builder &amp; Explorer · Founder of Zyberlane</strong><br>
+  <strong>AI-Native Builder &amp; Explorer · Building Zyberlane</strong><br>
   Exploring AI, Robotics, Software Engineering, Automation, Cybersecurity and Immersive Technologies.<br>
   Building at the intersection of engineering, technology and creativity.
 </p>
@@ -14,7 +14,7 @@
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/profile/terminal-mobile.svg">
-  <img src="assets/profile/terminal-desktop.svg" alt="Dilux Lane, AI-native builder, technology explorer and founder of Zyberlane. AI-assisted building; web and immersive experiences, AI and automation experiments. Learning AI, robotics, mechatronics, software and systems engineering, cybersecurity and automation. Design and filmmaking." width="100%">
+  <img src="assets/profile/terminal-desktop.svg" alt="Dilux Lane, AI-native builder and explorer, building Zyberlane. AI-assisted building; web and immersive experiences, AI and automation experiments. Learning AI, robotics, mechatronics, software and systems engineering, cybersecurity and automation. Design and filmmaking." width="100%">
 </picture>
 
 <h3 align="center">📚 Languages &amp; Tools I Have Placed My Hands On</h3>
