@@ -45,6 +45,7 @@
   <img src="assets/icons/gsap-tile.svg" alt="GSAP" title="GSAP" width="60" height="61">
   <img src="assets/icons/webgl-tile.svg" alt="WebGL" title="WebGL" width="60" height="61">
   <img src="assets/icons/threejs-tile.svg" alt="Three.js" title="Three.js" width="60" height="61">
+  <img src="assets/icons/webxr-tile.svg" alt="WebXR" title="WebXR" width="60" height="61">
   <img src="assets/icons/mediapipe-tile.svg" alt="MediaPipe" title="MediaPipe" width="60" height="61">
 </p>
 
@@ -102,7 +103,7 @@
   <img src="assets/analytics/stats.svg" alt="Owned public repositories, authored default-branch commits and authored merged pull requests; activity counts cover the last 365 dates." width="390">
 </p>
 
-<sub>Public GitHub activity, not a measure of programming proficiency. [Methodology](docs/analytics.md) · [Timestamped data](assets/analytics/snapshot.json)</sub>
+Public GitHub activity, not a measure of programming proficiency. [Methodology](docs/analytics.md) · [Timestamped data](assets/analytics/snapshot.json)
 
 ---
 
