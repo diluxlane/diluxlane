@@ -5,7 +5,7 @@
 <h1 align="center">Hey, I'm Dilux 👋</h1>
 
 <p align="center">
-  <strong>AI-Native Builder · Lifelong Explorer · Founder of Zyberlane</strong><br>
+  <strong>AI-Native Builder &amp; Explorer · Founder of Zyberlane</strong><br>
   Exploring AI, Robotics, Software Engineering, Automation, Cybersecurity and Immersive Technologies.<br>
   Building at the intersection of engineering, technology and creativity.
 </p>
