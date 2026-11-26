@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="88" height="90" viewBox="0 0 88 90" role="img"><title>Three.js</title><rect x="1" y="1" width="86" height="88" rx="12" fill="#111217" stroke="#303036"/><rect x="22" y="14" width="44" height="44" rx="10" fill="#1b1f29" stroke="#e5e5e9"/><text x="44" y="42" text-anchor="middle" fill="#e5e5e9" font-family="Arial,sans-serif" font-weight="700" font-size="17">3D</text><text x="44" y="76" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#e5e5e9">Three.js</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="90" viewBox="0 0 88 90" role="img"><title>Three.js</title><rect x="1" y="1" width="86" height="88" rx="12" fill="#111217" stroke="#303036"/><rect x="21" y="12" width="46" height="46" rx="7" fill="#f1f1f1"/><svg fill="none" stroke-linecap="square" stroke-miterlimit="10" version="1.1" viewBox="0 0 226.77 226.77" xmlns="http://www.w3.org/2000/svg" x="23" y="14" width="42" height="42">
+ <g transform="translate(8.964 4.2527)" fill-rule="evenodd" stroke="#000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="4">
+  <path d="m63.02 200.61-43.213-174.94 173.23 49.874z"/>
+  <path d="m106.39 50.612 21.591 87.496-86.567-24.945z"/>
+  <path d="m84.91 125.03-10.724-43.465 43.008 12.346z"/>
+  <path d="m63.458 38.153 10.724 43.465-43.008-12.346z"/>
+  <path d="m149.47 62.93 10.724 43.465-43.008-12.346z"/>
+  <path d="m84.915 125.06 10.724 43.465-43.008-12.346z"/>
+ </g>
+</svg><text x="44" y="76" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#e5e5e9">Three.js</text></svg>
