@@ -136,7 +136,7 @@ class ReadmeTests(unittest.TestCase):
             svg = path.read_text()
             self.assertLess(path.stat().st_size, 4000)
             self.assertNotRegex(svg, r'<mask|<animate|repeatCount|infinite')
-            self.assertIn('Engineering Tech Student', svg)
+            self.assertIn('AI-Native Builder', svg)
             self.assertIn('prefers-reduced-motion', svg)
             self.assertIn('robotics', svg)
             ET.fromstring(svg)
